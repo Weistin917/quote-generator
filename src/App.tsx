@@ -16,8 +16,10 @@ const quotes = [
 ];
 
 export default function App() {
+  // The quote to display.
   const [quote, setQuote] = useState(getQuote());
 
+  // Each 5 seconds a new quote is selected from the array
   useEffect(() => {
     const interval = setInterval(() => {
       setQuote(getQuote());
@@ -46,6 +48,7 @@ export default function App() {
   );
 }
 
+// random quote getter
 function getQuote() {
   const index = Math.floor(Math.random() * quotes.length);
   return quotes[index];
