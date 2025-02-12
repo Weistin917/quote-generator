@@ -1,19 +1,29 @@
+body {
+  background-image: url("https://preview.redd.it/orv-themed-lock-screens-wallpapers-v0-zr4llcu28wwc1.jpeg?width=700&format=pjpg&auto=webp&s=c52a4ffb40cd8f79a626a53f045f5bbccebf5c73");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
 .App {
-    font-family: sans-serif;
-    text-align: center;
-  }
-  
-  .QuoteCard {
-    margin: 20px auto;
-    width: 80%;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .Quote {
-    padding-bottom: 5px;
-    font-weight: 100;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.QuoteCard {
+  margin: 20px auto;
+  width: 90%;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Quote {
+  padding-bottom: 5px;
+  font-weight: 100;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
